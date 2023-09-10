@@ -12,7 +12,7 @@ class PizzaController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.pizza.index');
     }
 
     /**
@@ -20,7 +20,7 @@ class PizzaController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.pizza.create');
     }
 
     /**
